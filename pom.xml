@@ -23,16 +23,16 @@
   </parent>
 
   <scm>
-    <connection>scm:git:git://github.com/opentable/otj-pg-embedded.git</connection>
-    <developerConnection>scm:git:git@github.com:opentable/otj-pg-embedded.git</developerConnection>
-    <url>http://github.com/opentable/otj-pg-embedded</url>
+    <connection>scm:git:https://github.com/ciAnd7/otj-pg-embedded.git</connection>
+    <developerConnection>scm:git:https://github.com/ciAnd7/otj-pg-embedded.git</developerConnection>
+    <url>https://github.com/ciAnd7/otj-pg-embedded</url>
     <tag>HEAD</tag>
   </scm>
 
-  <groupId>com.opentable.components</groupId>
-  <artifactId>otj-pg-embedded</artifactId>
+  <groupId>name.ciand7</groupId>
+  <artifactId>ciand7-pg-embedded</artifactId>
   <version>0.13.4-SNAPSHOT</version>
-  <description>Embedded PostgreSQL driver</description>
+  <description>Embedded PostgreSQL driver (fork of otj-pg-embedded)</description>
 
   <properties>
     <project.build.targetJdk>1.8</project.build.targetJdk>

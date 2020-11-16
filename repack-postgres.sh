@@ -15,9 +15,9 @@ OSX_DIST=dist/postgresql-$VERSION-osx-binaries.zip
 WINDOWS_DIST=dist/postgresql-$VERSION-win-binaries.zip
 
 mkdir -p dist/ target/generated-resources/
-[ -e $LINUX_DIST ] || wget -O $LINUX_DIST "http://get.enterprisedb.com/postgresql/postgresql-$VERSION-linux-x64-binaries.tar.gz"
-[ -e $OSX_DIST ] || wget -O $OSX_DIST "http://get.enterprisedb.com/postgresql/postgresql-$VERSION-osx-binaries.zip"
-[ -e $WINDOWS_DIST ] || wget -O $WINDOWS_DIST "http://get.enterprisedb.com/postgresql/postgresql-$VERSION-windows-x64-binaries.zip"
+[ -e $LINUX_DIST ] || curl -o $LINUX_DIST "http://get.enterprisedb.com/postgresql/postgresql-$VERSION-linux-x64-binaries.tar.gz"
+[ -e $OSX_DIST ] || curl -o $OSX_DIST "http://get.enterprisedb.com/postgresql/postgresql-$VERSION-osx-binaries.zip"
+[ -e $WINDOWS_DIST ] || curl -o $WINDOWS_DIST "http://get.enterprisedb.com/postgresql/postgresql-$VERSION-windows-x64-binaries.zip"
 
 tar xzf $LINUX_DIST -C $PACKDIR
 pushd $PACKDIR/pgsql
@@ -41,6 +41,7 @@ tar cJf $RSRC_DIR/postgresql-Darwin-x86_64.txz \
   lib/libxml2.2.dylib \
   lib/libssl.1.0.0.dylib \
   lib/libcrypto.1.0.0.dylib \
+  lib/libpq.5.dylib \
   lib/libuuid.1.1.dylib \
   lib/postgresql/*.so \
   bin/initdb \
