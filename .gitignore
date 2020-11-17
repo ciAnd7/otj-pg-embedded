@@ -17,3 +17,5 @@ target/
 .project
 .settings
 dist/
+release.properties
+pom.xml.releaseBackup

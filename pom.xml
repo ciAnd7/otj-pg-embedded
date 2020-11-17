@@ -51,6 +51,14 @@
     </license>
   </licenses>
 
+  <distributionManagement>
+    <repository>
+      <id>bintray-ciand7-maven</id>
+      <name>ciand7-maven</name>
+      <url>https://api.bintray.com/maven/ciand7/maven/ciand7-pg-embedded/;publish=1</url>
+    </repository>
+  </distributionManagement>
+
   <build>
     <plugins>
       <plugin>
