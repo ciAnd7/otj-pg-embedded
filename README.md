@@ -1,6 +1,12 @@
 OpenTable Embedded PostgreSQL Component
 =======================================
 
+> This is the fork of https://github.com/opentable/otj-pg-embedded
+>
+> Main differences:
+>
+> 1. Compatibility with MacOS 11 (Big Sur): add libpq.5.dylib into the prepackaged PostgreSQL.
+
 Allows embedding PostgreSQL into Java application code with
 no external dependencies.  Excellent for allowing you to unit
 test with a "real" Postgres without requiring end users to install
