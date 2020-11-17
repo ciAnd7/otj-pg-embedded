@@ -26,12 +26,12 @@
     <connection>scm:git:https://github.com/ciAnd7/otj-pg-embedded.git</connection>
     <developerConnection>scm:git:https://github.com/ciAnd7/otj-pg-embedded.git</developerConnection>
     <url>https://github.com/ciAnd7/otj-pg-embedded</url>
-    <tag>ciand7-pg-embedded-0.13.4</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <groupId>name.ciand7</groupId>
   <artifactId>ciand7-pg-embedded</artifactId>
-  <version>0.13.4</version>
+  <version>0.13.5-SNAPSHOT</version>
   <description>Embedded PostgreSQL driver (fork of otj-pg-embedded)</description>
 
   <properties>
