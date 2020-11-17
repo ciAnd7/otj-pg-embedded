@@ -31,7 +31,7 @@
 
   <groupId>name.ciand7</groupId>
   <artifactId>ciand7-pg-embedded</artifactId>
-  <version>0.13.5-SNAPSHOT</version>
+  <version>0.13.4-SNAPSHOT</version>
   <description>Embedded PostgreSQL driver (fork of otj-pg-embedded)</description>
 
   <properties>
